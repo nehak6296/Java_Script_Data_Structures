@@ -5,7 +5,8 @@ for(let i=0;i<10;i++){
     let randomNumber=Math.floor(Math.random()*900+100);
     array.push(randomNumber);
 }
-console.log(array)
+
+/*console.log(array)
 let lengthArray=array.length;
 console.log(lengthArray);
 
@@ -35,3 +36,11 @@ console.log("First smallest number is:"+smallest);
 console.log("Second largest number:"+largest2);
 console.log("Second smallest number:"+smallest2);
 
+*/
+console.log("Array before sorting");
+console.log(array);
+array.sort();
+console.log("Array after sorting");
+console.log(array);
+console.log("second Largest Number:"+array[8]);
+console.log("second smallest number:"+array[1]);
